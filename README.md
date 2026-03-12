@@ -43,9 +43,10 @@ Reverse proxy server is responsible for internal routing and HTTPS access to lab
 -Git  
 -Infrastructure Automation
 
-'''
+
 ## Lab Topology
 
+'''
 Internet
    │
 ISP Router
