@@ -43,6 +43,7 @@ Reverse proxy server is responsible for internal routing and HTTPS access to lab
 -Git  
 -Infrastructure Automation
 
+'''
 ## Lab Topology
 
 Internet
@@ -53,14 +54,15 @@ Eero Gateway
    │
 Managed Switch
    │
-├── Forge (Proxmox Hypervisor)
+├── Forge (Physical Server)-(Proxmox Hypervisor)
 │   ├── Media VM - Plex media services
 │   ├── Monitor-01 - Prometheus/Grafana monitoring
 │   ├── Controller-01 - Ansible automation control node
 │   ├── VPN-Gateway - WireGuard remote access
 │   └── Proxy-01 - Reverse proxy and HTTPS services
 │
-└── Vault - NFS storage and backup server
+└── Vault (Physical Server)- NFS storage and backup server
+'''
 
 ## Current Projects
 
