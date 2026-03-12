@@ -46,7 +46,7 @@ Reverse proxy server is responsible for internal routing and HTTPS access to lab
 
 ## Lab Topology
 
-'''
+```
 Internet
    │
 ISP Router
@@ -63,7 +63,7 @@ Managed Switch
 │   └── Proxy-01 - Reverse proxy and HTTPS services
 │
 └── Vault (Physical Server)- NFS storage and backup server
-'''
+```
 
 ## Current Projects
 
