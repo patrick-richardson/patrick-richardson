@@ -55,7 +55,7 @@ Eero Gateway
    │
 Managed Switch
    │
-├── Forge (Physical Server)- Proxmox Hypervisor
+├── Forge (Physical Server)-Proxmox Hypervisor
 │   ├── Media VM - Plex media services
 │   ├── Monitor-01 - Prometheus/Grafana monitoring
 │   ├── Controller-01 - Ansible automation control node
